@@ -1,11 +1,12 @@
-import React from "react";
-// import "./Controls.scss";
-import { useLocation, useHistory } from 'react-router-dom';
-export default function Controls() {
+import React, { ReactElement } from "react";
+import { useHistory, useLocation } from "react-router-dom";
+import "./Controls.scss";
+
+export default function Controls(): ReactElement {
   let history = useHistory();
   let location = useLocation();
 
-  let nextPage:any;
+  let nextPage: String;
   switch (location.pathname) {
     case "/home":
       nextPage = "/track";

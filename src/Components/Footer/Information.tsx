@@ -1,16 +1,7 @@
-import React from "react";
+import React, { ReactElement } from "react";
+import "./Information.scss";
 
-// import "./Information.scss";
-
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      "ion-icon": any;
-    }
-  }
-}
-
-export default function Information() {
+export default function Information(): ReactElement {
   return (
     <ul className="information">
       <li>
