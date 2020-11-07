@@ -18,7 +18,6 @@ export default function Information(): ReactElement {
       </li>
       <li>
         <ion-icon name="time-sharp"></ion-icon>
-        <ion-icon></ion-icon>
         <p> Business Hours : Monday to Saturday 9am – 6pm </p>
       </li>
     </ul>
