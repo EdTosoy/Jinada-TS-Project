@@ -5,13 +5,14 @@
 <p align="center">
   A Total Logistics Website for Total Logistics Company,
   This Project helps the users to track, Contact, and see Shipping Rates in JINADA's services. It is
-  built with React.js, React Router, SCSS(CSS), Firebase, Webpack as bundler.
+  built with TypeScript, React.js, React Router, SCSS(CSS), Firebase, Webpack as bundler.
 </p>
 
 ![demo](https://github.com/EdTosoy/Jinada-Project/blob/master/Demo.png?raw=true)
 
 ## Built With
 
+- TypeScript
 - React.js
 - React Router Dom
 - SCSS(CSS)
@@ -64,6 +65,7 @@
 
 ## Dependencies
 
+- TypeScript
 - React.js
 - React Router Dom
 - Node-sass
